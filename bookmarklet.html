@@ -3,14 +3,27 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!-- for teh oldie browser -->
-    <title>Catalog Search Bookmarklet</title>
+    <title>LibSearch Bookmarklet</title>
     <meta name="description" content="Search the library's catalog, no matter what website you're on.">
     <meta name="viewport" content="width=device-width,initial-scale=1"> <!-- for teh mobiles -->
+    <style>
+    #bookmarklet {
+        background-color: #BDB8B8;
+        text-decoration: none;
+        padding: 0 5px;
+            -webkit-border-radius: 2px 2px 2px;
+            -moz-border-radius: 2px 2px 2px;
+        border-radius: 2px 2px 2px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+    </style>
 </head>
 
 <body>
     <h1>Search the Library Catalog</h1>
     <p><i>no matter what web page you're on!</i></p>
-    <p>Just drag <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://put.github.link.here/';})();"" title="LibSearch">this link</a> into your bookmark bar, or if you're on Internet Explorer version 8 or earlier simply right-click and add the bookmarklet to your Favorites.</p>
+    <p>Just drag the <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://raw.github.com/phette23/search-bookmarklet/master/search-bookmarklet.js';})();"" title="LibSearch" id="bookmarklet">LibSearch</a> link into your bookmark bar, or if you're on Internet Explorer version 8 or earlier simply right-click and add the bookmarklet to your Favorites.</p>
 </body>
 </html>
