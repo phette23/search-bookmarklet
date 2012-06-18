@@ -8,7 +8,7 @@ Thank Stevens
 
 This code is inspired by and heavily reuses code written by Barbara Arnett and Valerie Forrestal from the Stevens Institute of Technology. Here is [a link](stevens.edu/library/research/) to their version of the bookmarklet. I tried to improve upon it a bit, including
 
-    - Rather than stripping out only the generic Wikipedia title, I strip out Wikipedia, Google, Bing, & Yahoo!.
+    - Rather than stripping out only the generic Wikipedia title, I strip out Wikipedia, Google, Bing, Yahoo!, Amazon, and Barnes & Noble.
     - Fail-safe in case the web page's <body> hasn't loaded when the bookmarklet is clicked.
     - A few measures to make the script injection slightly more error-proof.
 
