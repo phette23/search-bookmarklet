@@ -3,6 +3,7 @@
 (function ( window, document, undefined ) {
     var d = document;
     try {
+<<<<<<< HEAD
         if ( !d.body ) throw(0);
         var a = d.title.replace( ' - Wikipedia, the free encyclopedia', '' )
                 .replace( ' - Google Search', '' )
@@ -14,9 +15,22 @@
         a = prompt( 'Search the Chesapeake College Library for:', a );
         if (a) {
             window.location.href = 'http://catalog.chesapeake.edu/view.aspx?keyword=' + a;
+=======
+    if ( !d.body ) throw(0);
+    var a = d.title.replace( ' - Wikipedia, the free encyclopedia', '' )
+            .replace( ' - Google Search', '' )
+            .replace( ' - Bing', '' )
+            .replace( ' - Yahoo! Search Results', '' )
+            .replace( 'Amazon.com: ', '')
+            .replace( 'BARNES & NOBLE | ', '');
+            // NB: add Amazon, other popular websites
+    a = prompt( 'Search the Chesapeake College Library for:', a );
+    if (a) {
+        window.location.href = 'http://catalog.chesapeake.edu/view.aspx?keyword=' + a;
+>>>>>>> cleaner code, no functional changes
         }
     }
-    catch(e) {
+    catch (e) {
         alert( 'Please wait until the page is finished loading.' );
     }
 } ( window, document ));
