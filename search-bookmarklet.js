@@ -10,10 +10,10 @@
                 .replace( ' - Yahoo! Search Results', '' )
                 .replace( 'Amazon.com: ', '' )
                 .replace( 'BARNES & NOBLE | ', '' );
-                // NB: add Amazon, other popular websites
+                // what other sites would this be useful on?
         a = prompt( 'Search the Chesapeake College Library for:', a );
         if (a) {
-            window.location.href = 'http://catalog.chesapeake.edu/view.aspx?keyword=' + a;
+            window.location.href = 'http://catalog.chesapeake.edu/view.aspx?keyword=' + encodeURIComponent(a);
         }
     }
     catch(e) {
