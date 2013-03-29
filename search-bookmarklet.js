@@ -16,7 +16,7 @@
             window.location.href = 'http://catalog.chesapeake.edu/view.aspx?keyword=' + encodeURIComponent(a);
         }
     }
-    catch(e) {
+    catch (e) {
         alert( 'Please wait until the page is finished loading.' );
     }
 } ( window, document ));
