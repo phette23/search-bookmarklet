@@ -3,7 +3,7 @@
 (function ( window, document, undefined ) {
     var d = document;
     try {
-        if ( !d.body ) throw(0);
+        if ( !d.body ) throw 0;
         var a = d.title.replace( ' - Wikipedia, the free encyclopedia', '' )
                 .replace( ' - Google Search', '' )
                 .replace( ' - Bing', '' )
