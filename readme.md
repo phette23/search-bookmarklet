@@ -19,3 +19,5 @@ Customization
 - Change the title if you like
 - Make a better marketing page
 - ...that's it.
+
+[![Analytics](https://ga-beacon.appspot.com/UA-29080462-2/search-bookmarklet/readme?pixel)](https://github.com/igrigorik/ga-beacon)
